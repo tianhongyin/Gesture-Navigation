@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>599DF590-0CAE-4826-AB79-2AF8D878A4EC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>testNavi</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>c4ccc3fd-b13d-49bf-a705-f618d8f4424a++2488</key>
+		<string>https://svn.baidu.com/myspace/ecp/mobile/ios/yuanhanguang/src</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>testNavi/testNavi.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>c4ccc3fd-b13d-49bf-a705-f618d8f4424a++2488</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>c4ccc3fd-b13d-49bf-a705-f618d8f4424a++2488</key>
+		<string>https://svn.baidu.com/myspace</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://svn.baidu.com/myspace/ecp/mobile/ios/yuanhanguang/src/testNavi/testNavi.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>c4ccc3fd-b13d-49bf-a705-f618d8f4424a++2488</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>c4ccc3fd-b13d-49bf-a705-f618d8f4424a++2488</string>
+			<key>IDESourceControlWCCName</key>
+			<string>workSpace</string>
+		</dict>
+	</array>
+</dict>
+</plist>

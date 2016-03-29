@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "c4ccc3fd-b13d-49bf-a705-f618d8f4424a++3870",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "c4ccc3fd-b13d-49bf-a705-f618d8f4424a++3870" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "c4ccc3fd-b13d-49bf-a705-f618d8f4424a++3870" : 0,
+    "c4ccc3fd-b13d-49bf-a705-f618d8f4424a++2488" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "599DF590-0CAE-4826-AB79-2AF8D878A4EC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "c4ccc3fd-b13d-49bf-a705-f618d8f4424a++3870" : "%E6%89%8B%E5%8A%BF%E5%AF%BC%E8%88%AA\/",
+    "c4ccc3fd-b13d-49bf-a705-f618d8f4424a++2488" : "workSpace"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "testNavi",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "testNavi\/testNavi.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/svn.baidu.com\/myspace",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "c4ccc3fd-b13d-49bf-a705-f618d8f4424a++2488"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/svn.baidu.com\/myspace",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "c4ccc3fd-b13d-49bf-a705-f618d8f4424a++3870"
+    }
+  ]
+}
