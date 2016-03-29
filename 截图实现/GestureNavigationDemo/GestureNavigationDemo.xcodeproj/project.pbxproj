@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		D48D48831CAAA49E00D88593 /* UIView+ZXLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D48D48801CAAA49E00D88593 /* UIView+ZXLayout.m */; };
 		D48D48841CAAA49E00D88593 /* ZXGestureNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D48D48821CAAA49E00D88593 /* ZXGestureNavigationController.m */; };
-		D4CC11DD1A836AD600DE7848 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CC11DC1A836AD600DE7848 /* main.m */; };
-		D4CC11E01A836AD600DE7848 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CC11DF1A836AD600DE7848 /* AppDelegate.m */; };
-		D4CC11E31A836AD600DE7848 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CC11E21A836AD600DE7848 /* ViewController.m */; };
-		D4CC11E81A836AD600DE7848 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4CC11E71A836AD600DE7848 /* Images.xcassets */; };
-		D4CC11EB1A836AD600DE7848 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4CC11E91A836AD600DE7848 /* LaunchScreen.xib */; };
+		D48D48911CAAAA0D00D88593 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D48D48871CAAAA0D00D88593 /* AppDelegate.m */; };
+		D48D48921CAAAA0D00D88593 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D48D48881CAAAA0D00D88593 /* LaunchScreen.xib */; };
+		D48D48931CAAAA0D00D88593 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D48D488A1CAAAA0D00D88593 /* Main.storyboard */; };
+		D48D48941CAAAA0D00D88593 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D48D488C1CAAAA0D00D88593 /* Images.xcassets */; };
+		D48D48951CAAAA0D00D88593 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D48D488D1CAAAA0D00D88593 /* Info.plist */; };
+		D48D48961CAAAA0D00D88593 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D48D488E1CAAAA0D00D88593 /* main.m */; };
+		D48D48971CAAAA0D00D88593 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D48D48901CAAAA0D00D88593 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,15 +23,16 @@
 		D48D48801CAAA49E00D88593 /* UIView+ZXLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZXLayout.m"; sourceTree = "<group>"; };
 		D48D48811CAAA49E00D88593 /* ZXGestureNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXGestureNavigationController.h; sourceTree = "<group>"; };
 		D48D48821CAAA49E00D88593 /* ZXGestureNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXGestureNavigationController.m; sourceTree = "<group>"; };
+		D48D48861CAAAA0D00D88593 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D48D48871CAAAA0D00D88593 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D48D48891CAAAA0D00D88593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D48D488B1CAAAA0D00D88593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D48D488C1CAAAA0D00D88593 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D48D488D1CAAAA0D00D88593 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D48D488E1CAAAA0D00D88593 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D48D488F1CAAAA0D00D88593 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D48D48901CAAAA0D00D88593 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D4CC11D71A836AD600DE7848 /* GestureNavigationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestureNavigationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4CC11DB1A836AD600DE7848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D4CC11DC1A836AD600DE7848 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D4CC11DE1A836AD600DE7848 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D4CC11DF1A836AD600DE7848 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D4CC11E11A836AD600DE7848 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D4CC11E21A836AD600DE7848 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D4CC11E71A836AD600DE7848 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D4CC11EA1A836AD600DE7848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +58,27 @@
 			path = "../Source Code";
 			sourceTree = "<group>";
 		};
+		D48D48851CAAAA0D00D88593 /* GestureNavigationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D48D48861CAAAA0D00D88593 /* AppDelegate.h */,
+				D48D48871CAAAA0D00D88593 /* AppDelegate.m */,
+				D48D48881CAAAA0D00D88593 /* LaunchScreen.xib */,
+				D48D488A1CAAAA0D00D88593 /* Main.storyboard */,
+				D48D488C1CAAAA0D00D88593 /* Images.xcassets */,
+				D48D488D1CAAAA0D00D88593 /* Info.plist */,
+				D48D488E1CAAAA0D00D88593 /* main.m */,
+				D48D488F1CAAAA0D00D88593 /* ViewController.h */,
+				D48D48901CAAAA0D00D88593 /* ViewController.m */,
+			);
+			path = GestureNavigationDemo;
+			sourceTree = "<group>";
+		};
 		D4CC11CE1A836AD600DE7848 = {
 			isa = PBXGroup;
 			children = (
+				D48D48851CAAAA0D00D88593 /* GestureNavigationDemo */,
 				D48D487E1CAAA49E00D88593 /* Source Code */,
-				D4CC11D91A836AD600DE7848 /* GestureNavigationDemo */,
 				D4CC11D81A836AD600DE7848 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,30 +89,6 @@
 				D4CC11D71A836AD600DE7848 /* GestureNavigationDemo.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		D4CC11D91A836AD600DE7848 /* GestureNavigationDemo */ = {
-			isa = PBXGroup;
-			children = (
-				D4CC11DE1A836AD600DE7848 /* AppDelegate.h */,
-				D4CC11DF1A836AD600DE7848 /* AppDelegate.m */,
-				D4CC11E11A836AD600DE7848 /* ViewController.h */,
-				D4CC11E21A836AD600DE7848 /* ViewController.m */,
-				D4CC11E71A836AD600DE7848 /* Images.xcassets */,
-				D4CC11E91A836AD600DE7848 /* LaunchScreen.xib */,
-				D4CC11DA1A836AD600DE7848 /* Supporting Files */,
-			);
-			name = GestureNavigationDemo;
-			path = testNavi;
-			sourceTree = "<group>";
-		};
-		D4CC11DA1A836AD600DE7848 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D4CC11DB1A836AD600DE7848 /* Info.plist */,
-				D4CC11DC1A836AD600DE7848 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,8 +148,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4CC11EB1A836AD600DE7848 /* LaunchScreen.xib in Resources */,
-				D4CC11E81A836AD600DE7848 /* Images.xcassets in Resources */,
+				D48D48951CAAAA0D00D88593 /* Info.plist in Resources */,
+				D48D48941CAAAA0D00D88593 /* Images.xcassets in Resources */,
+				D48D48921CAAAA0D00D88593 /* LaunchScreen.xib in Resources */,
+				D48D48931CAAAA0D00D88593 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,22 +163,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				D48D48831CAAA49E00D88593 /* UIView+ZXLayout.m in Sources */,
-				D4CC11E31A836AD600DE7848 /* ViewController.m in Sources */,
-				D4CC11E01A836AD600DE7848 /* AppDelegate.m in Sources */,
 				D48D48841CAAA49E00D88593 /* ZXGestureNavigationController.m in Sources */,
-				D4CC11DD1A836AD600DE7848 /* main.m in Sources */,
+				D48D48961CAAAA0D00D88593 /* main.m in Sources */,
+				D48D48911CAAAA0D00D88593 /* AppDelegate.m in Sources */,
+				D48D48971CAAAA0D00D88593 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D4CC11E91A836AD600DE7848 /* LaunchScreen.xib */ = {
+		D48D48881CAAAA0D00D88593 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D4CC11EA1A836AD600DE7848 /* Base */,
+				D48D48891CAAAA0D00D88593 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		D48D488A1CAAAA0D00D88593 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D48D488B1CAAAA0D00D88593 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
