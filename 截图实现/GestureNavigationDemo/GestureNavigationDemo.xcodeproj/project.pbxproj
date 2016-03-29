@@ -7,27 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D48D48831CAAA49E00D88593 /* UIView+ZXLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D48D48801CAAA49E00D88593 /* UIView+ZXLayout.m */; };
+		D48D48841CAAA49E00D88593 /* ZXGestureNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D48D48821CAAA49E00D88593 /* ZXGestureNavigationController.m */; };
 		D4CC11DD1A836AD600DE7848 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CC11DC1A836AD600DE7848 /* main.m */; };
 		D4CC11E01A836AD600DE7848 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CC11DF1A836AD600DE7848 /* AppDelegate.m */; };
 		D4CC11E31A836AD600DE7848 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CC11E21A836AD600DE7848 /* ViewController.m */; };
 		D4CC11E81A836AD600DE7848 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4CC11E71A836AD600DE7848 /* Images.xcassets */; };
 		D4CC11EB1A836AD600DE7848 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4CC11E91A836AD600DE7848 /* LaunchScreen.xib */; };
-		D4CC11F71A836AD600DE7848 /* testNaviTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CC11F61A836AD600DE7848 /* testNaviTests.m */; };
-		D4CC12021A836BFE00DE7848 /* ZXGestureNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CC12011A836BFE00DE7848 /* ZXGestureNavigationController.m */; };
-		D4CC120F1A8378FE00DE7848 /* UIView+ZXLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CC120E1A8378FE00DE7848 /* UIView+ZXLayout.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		D4CC11F11A836AD600DE7848 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D4CC11CF1A836AD600DE7848 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D4CC11D61A836AD600DE7848;
-			remoteInfo = testNavi;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		D48D487F1CAAA49E00D88593 /* UIView+ZXLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZXLayout.h"; sourceTree = "<group>"; };
+		D48D48801CAAA49E00D88593 /* UIView+ZXLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZXLayout.m"; sourceTree = "<group>"; };
+		D48D48811CAAA49E00D88593 /* ZXGestureNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXGestureNavigationController.h; sourceTree = "<group>"; };
+		D48D48821CAAA49E00D88593 /* ZXGestureNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXGestureNavigationController.m; sourceTree = "<group>"; };
 		D4CC11D71A836AD600DE7848 /* GestureNavigationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestureNavigationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4CC11DB1A836AD600DE7848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4CC11DC1A836AD600DE7848 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -37,13 +30,6 @@
 		D4CC11E21A836AD600DE7848 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D4CC11E71A836AD600DE7848 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D4CC11EA1A836AD600DE7848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		D4CC11F01A836AD600DE7848 /* GestureNavigationDemo.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GestureNavigationDemo.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4CC11F51A836AD600DE7848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D4CC11F61A836AD600DE7848 /* testNaviTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testNaviTests.m; sourceTree = "<group>"; };
-		D4CC12001A836BFE00DE7848 /* ZXGestureNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXGestureNavigationController.h; sourceTree = "<group>"; };
-		D4CC12011A836BFE00DE7848 /* ZXGestureNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXGestureNavigationController.m; sourceTree = "<group>"; };
-		D4CC120D1A8378FE00DE7848 /* UIView+ZXLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZXLayout.h"; sourceTree = "<group>"; };
-		D4CC120E1A8378FE00DE7848 /* UIView+ZXLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZXLayout.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,21 +40,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4CC11ED1A836AD600DE7848 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D48D487E1CAAA49E00D88593 /* Source Code */ = {
+			isa = PBXGroup;
+			children = (
+				D48D487F1CAAA49E00D88593 /* UIView+ZXLayout.h */,
+				D48D48801CAAA49E00D88593 /* UIView+ZXLayout.m */,
+				D48D48811CAAA49E00D88593 /* ZXGestureNavigationController.h */,
+				D48D48821CAAA49E00D88593 /* ZXGestureNavigationController.m */,
+			);
+			name = "Source Code";
+			path = "../Source Code";
+			sourceTree = "<group>";
+		};
 		D4CC11CE1A836AD600DE7848 = {
 			isa = PBXGroup;
 			children = (
-				D4CC11D91A836AD600DE7848 /* testNavi */,
-				D4CC11F31A836AD600DE7848 /* testNaviTests */,
+				D48D487E1CAAA49E00D88593 /* Source Code */,
+				D4CC11D91A836AD600DE7848 /* GestureNavigationDemo */,
 				D4CC11D81A836AD600DE7848 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,15 +68,13 @@
 			isa = PBXGroup;
 			children = (
 				D4CC11D71A836AD600DE7848 /* GestureNavigationDemo.app */,
-				D4CC11F01A836AD600DE7848 /* GestureNavigationDemo.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D4CC11D91A836AD600DE7848 /* testNavi */ = {
+		D4CC11D91A836AD600DE7848 /* GestureNavigationDemo */ = {
 			isa = PBXGroup;
 			children = (
-				D4CC12101A83790400DE7848 /* SRC */,
 				D4CC11DE1A836AD600DE7848 /* AppDelegate.h */,
 				D4CC11DF1A836AD600DE7848 /* AppDelegate.m */,
 				D4CC11E11A836AD600DE7848 /* ViewController.h */,
@@ -94,6 +83,7 @@
 				D4CC11E91A836AD600DE7848 /* LaunchScreen.xib */,
 				D4CC11DA1A836AD600DE7848 /* Supporting Files */,
 			);
+			name = GestureNavigationDemo;
 			path = testNavi;
 			sourceTree = "<group>";
 		};
@@ -104,34 +94,6 @@
 				D4CC11DC1A836AD600DE7848 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D4CC11F31A836AD600DE7848 /* testNaviTests */ = {
-			isa = PBXGroup;
-			children = (
-				D4CC11F61A836AD600DE7848 /* testNaviTests.m */,
-				D4CC11F41A836AD600DE7848 /* Supporting Files */,
-			);
-			path = testNaviTests;
-			sourceTree = "<group>";
-		};
-		D4CC11F41A836AD600DE7848 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D4CC11F51A836AD600DE7848 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D4CC12101A83790400DE7848 /* SRC */ = {
-			isa = PBXGroup;
-			children = (
-				D4CC12001A836BFE00DE7848 /* ZXGestureNavigationController.h */,
-				D4CC12011A836BFE00DE7848 /* ZXGestureNavigationController.m */,
-				D4CC120D1A8378FE00DE7848 /* UIView+ZXLayout.h */,
-				D4CC120E1A8378FE00DE7848 /* UIView+ZXLayout.m */,
-			);
-			name = SRC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,24 +116,6 @@
 			productReference = D4CC11D71A836AD600DE7848 /* GestureNavigationDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D4CC11EF1A836AD600DE7848 /* GestureNavigationDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D4CC11FD1A836AD600DE7848 /* Build configuration list for PBXNativeTarget "GestureNavigationDemoTests" */;
-			buildPhases = (
-				D4CC11EC1A836AD600DE7848 /* Sources */,
-				D4CC11ED1A836AD600DE7848 /* Frameworks */,
-				D4CC11EE1A836AD600DE7848 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D4CC11F21A836AD600DE7848 /* PBXTargetDependency */,
-			);
-			name = GestureNavigationDemoTests;
-			productName = testNaviTests;
-			productReference = D4CC11F01A836AD600DE7848 /* GestureNavigationDemo.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -183,10 +127,6 @@
 				TargetAttributes = {
 					D4CC11D61A836AD600DE7848 = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					D4CC11EF1A836AD600DE7848 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = D4CC11D61A836AD600DE7848;
 					};
 				};
 			};
@@ -204,7 +144,6 @@
 			projectRoot = "";
 			targets = (
 				D4CC11D61A836AD600DE7848 /* GestureNavigationDemo */,
-				D4CC11EF1A836AD600DE7848 /* GestureNavigationDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -219,13 +158,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4CC11EE1A836AD600DE7848 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -233,31 +165,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4CC120F1A8378FE00DE7848 /* UIView+ZXLayout.m in Sources */,
+				D48D48831CAAA49E00D88593 /* UIView+ZXLayout.m in Sources */,
 				D4CC11E31A836AD600DE7848 /* ViewController.m in Sources */,
 				D4CC11E01A836AD600DE7848 /* AppDelegate.m in Sources */,
+				D48D48841CAAA49E00D88593 /* ZXGestureNavigationController.m in Sources */,
 				D4CC11DD1A836AD600DE7848 /* main.m in Sources */,
-				D4CC12021A836BFE00DE7848 /* ZXGestureNavigationController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D4CC11EC1A836AD600DE7848 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D4CC11F71A836AD600DE7848 /* testNaviTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D4CC11F21A836AD600DE7848 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D4CC11D61A836AD600DE7848 /* GestureNavigationDemo */;
-			targetProxy = D4CC11F11A836AD600DE7848 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D4CC11E91A836AD600DE7848 /* LaunchScreen.xib */ = {
@@ -370,42 +286,6 @@
 			};
 			name = Release;
 		};
-		D4CC11FE1A836AD600DE7848 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = testNaviTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "xxx.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = GestureNavigationDemo;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GestureNavigationDemo.app/GestureNavigationDemo";
-			};
-			name = Debug;
-		};
-		D4CC11FF1A836AD600DE7848 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = testNaviTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "xxx.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = GestureNavigationDemo;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GestureNavigationDemo.app/GestureNavigationDemo";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -423,15 +303,6 @@
 			buildConfigurations = (
 				D4CC11FB1A836AD600DE7848 /* Debug */,
 				D4CC11FC1A836AD600DE7848 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D4CC11FD1A836AD600DE7848 /* Build configuration list for PBXNativeTarget "GestureNavigationDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D4CC11FE1A836AD600DE7848 /* Debug */,
-				D4CC11FF1A836AD600DE7848 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
