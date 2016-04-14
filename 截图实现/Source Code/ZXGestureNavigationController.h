@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol ZXGestureNavigationController <UINavigationControllerDelegate>
+
+
+@end
+
 typedef enum _ZXGestureDirection
 {
     
@@ -23,5 +28,5 @@ typedef enum _ZXGestureDirection
 @interface ZXGestureNavigationController : UINavigationController
 
 @property (nonatomic, assign) BOOL supportDrag;
-
+//@property (nonatomic, weak) id delegate;
 @end
